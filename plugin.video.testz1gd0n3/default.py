@@ -60,11 +60,11 @@ debug        = Addon_Setting(setting='debug')       # Grab the setting of our de
 addon_id     = xbmcaddon.Addon().getAddonInfo('id') # Grab our add-on id
 
 # Set the base plugin url you want to hook into
-BASE  = "plugin://plugin.video.youtube/playlist/"
+BASE  = "plugin://http://www.bitvid.sx/mobile/#/videos"
 BASE2 = "plugin://plugin.video.youtube/channel/"
 
 # Set each of your YouTube playlist id's
-YOUTUBE_CHANNEL_ID_1 = "PLRjomIk8urmEj_1boB4qG-sJfLLfbJqq2"
+YOUTUBE_CHANNEL_ID_1 = "videobf4357a25a506"
 YOUTUBE_CHANNEL_ID_2 = "PLnDj4GODT_QpaemQB4395I9wRwCnZvx6x"
 YOUTUBE_CHANNEL_ID_3 = "PLfb8E7lARImvzrAq0O6jyQcstw7aKZvLq"
 YOUTUBE_CHANNEL_ID_4 = "PLlJDPmb6OexrDnAFNBNJez8zRe4EECDZY"
