@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="plugin.video.testz1gd0n" name="My Test Add-on" version="0.0.1" provider-name="z1gd0n">
+<addon id="plugin.video.testz1gd0n" name="My Test Add-on" version="0.0.2" provider-name="z1gd0n">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.nanscrapers" version="0.5.5" />
@@ -22,7 +22,51 @@
 	</extension>
 </addon>
 
-<addon id="repository.z1gd0n" name="DevIL repo" version="0.0.1" provider-name="z1gd0n">
+<addon id="plugin.video.testz1gd0n2" name="plylist test" version="0.0.2" provider-name="z1gd0n">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+		<import addon="script.module.nanscrapers" version="0.5.5" />
+        <import addon="script.module.python.koding.aio" version="0.0.1"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">playlist test</summary>
+		<description lang="en">test</description>
+		<platform>all</platform>
+		<forum>http://www.noobsandnerds.com/support</forum>
+		<website>www.noobsandnerds.com</website>
+		<news></news>
+		<genre></genre>
+		<video_guide></video_guide>
+		<video_preview></video_preview>
+	</extension>
+</addon>
+
+<addon id="plugin.video.testz1gd0n3" name="youtube test" version="0.0.2" provider-name="z1gd0n">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+		<import addon="script.module.nanscrapers" version="0.5.5" />
+        <import addon="script.module.python.koding.aio" version="0.0.1"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">youtube test</summary>
+		<description lang="en">test</description>
+		<platform>all</platform>
+		<forum>http://www.noobsandnerds.com/support</forum>
+		<website>www.noobsandnerds.com</website>
+		<news></news>
+		<genre></genre>
+		<video_guide></video_guide>
+		<video_preview></video_preview>
+	</extension>
+</addon>
+
+<addon id="repository.z1gd0n" name="DevIL repo" version="0.0.2" provider-name="z1gd0n">
 	<extension point="xbmc.addon.repository" name="DevIL repo">
 		<dir>
 			<info compressed="false">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml</info>
