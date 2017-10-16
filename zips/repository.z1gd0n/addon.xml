@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.z1gd0n" name="DevIL repo" version="0.0.2" provider-name="z1gd0n">
+<addon id="repository.z1gd0n" name="DevIL repo" version="0.0.3" provider-name="z1gd0n">
 	<extension point="xbmc.addon.repository" name="DevIL repo">
 		<dir>
 			<info compressed="false">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml</info>
@@ -11,8 +11,8 @@
 		<datadir zip="true">https://raw.githubusercontent.com/z1gd0n/repository.z1gd0n/master/zips/</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">test reop </summary>
-		<description lang="en">test repo</description>
+		<summary lang="en">DevIL repo</summary>
+		<description lang="en">just having fun</description>
 		<genre></genre>
 	</extension>
 </addon>
