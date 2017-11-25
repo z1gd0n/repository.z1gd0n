@@ -1,14 +1,14 @@
 <dir>
-  <title>z1gd0n</title>
-  <trakt>https://api.trakt.tv/users/zeevgg/lists/z1gd0n-tv-shows/items</trakt>
+  <title>test</title>
+  <trakt>https://api.trakt.tv/users/zeevgg/lists/items</trakt>
 </dir>
 
 
 
 
 <dir>
-  <title>yaala</title>
-  <trakt>https://api.trakt.tv/users/zeevgg/lists/yaala-tv-shows/items</trakt>
+  <title>My lists</title>
+  <trakt>https://api.trakt.tv/users/me/lists/</trakt>
 </dir>
 
 <dir>
@@ -42,9 +42,4 @@
   <thumbnail>http://i.imgur.com/pVRZGMj.png</thumbnail>
   <fanart>http://i.imgur.com/FJDZ13h.png</fanart>
   <content></content>
-</dir>
-
-<dir>
-  <title>yaala</title>
-  <trakt>https://api.trakt.tv/users/lish408/lists/rotten-tomatoes-best-of-2017/items</trakt>
 </dir>
