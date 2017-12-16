@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+	<category label="TV Show Search Defaults">
+		<setting id="tv_choice" type="select" label="choice" values="On|Off" default="Off" />
+		<setting id="tv_title" type="text" label="Title:" default=" " visible="true"/>
+		<setting id="tv_show_year" type="text" label="Show year:" default=" " visible="true"/>
+		<setting id="tv_year" type="text" label="Ep. Year:" default=" " visible="true"/>
+		<setting id="tv_season" type="text" label="Season No." default=" " visible="true"/>
+		<setting id="tv_episode" type="text" label="Episode No." default=" " visible="true"/>
+		<setting id="tv_imdb" type="text" label="IMDB No.:" default=" " visible="true"/>
+    </category>	
+	<category label="Movie Search Defaults">
+		<setting id="movie_choice" type="select" label="choice" values="On|Off" default="Off" />
+		<setting id="movie_title" type="text" label="Title:" default=" " visible="true"/>
+		<setting id="movie_year" type="text" label="Year:" default=" " visible="true"/>
+		<setting id="movie_imdb" type="text" label="IMDB No.:" default=" " visible="true"/>
+    </category>	
+</settings>
