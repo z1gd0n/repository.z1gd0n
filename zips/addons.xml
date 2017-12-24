@@ -19,6 +19,35 @@
   </extension>
 </addon>
 
+<addon id="plugin.video.mittens" version="1.0.0" name="Mittens" provider-name="Mittens">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+		<import addon="script.module.mittens" />
+		<import addon="script.mittens.artwork" version="1.0.0" />
+		<import addon="script.mittens.metadata" version="1.0.0" />
+		<import addon="script.module.urlresolver" version="4.0.15" />
+		<import addon="script.module.requests" />
+		<import addon="script.module.metahandler" version="3.0.2" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="mittens.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.service" library="service.py" start="startup" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Mittens</summary>
+		<description lang="en">Kindly note that Mittens is not an official part of the media player you are running, and therefore not to be mentioned within official support channels, this addon has nothing to do with the media player itself, nor it’s intended use, it is simply a third party plugin which has been added to your system. Credit to original exodus and covenant devs.</description>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+    			<screenshot>resources/screenshots/screenshot-01.jpg</screenshot>
+    			<screenshot>resources/screenshots/screenshot-02.jpg</screenshot>
+    			<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
+		</assets>
+	</extension>
+</addon>
+
 <addon id="plugin.video.scrapertest" version="0.0.1" name="Scraper test" provider-name="">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
