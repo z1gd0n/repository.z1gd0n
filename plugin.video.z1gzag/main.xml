@@ -1,0 +1,33 @@
+<xml>
+  <dir>
+  <title>Trending Movies</title>
+  <trakt>https://api.trakt.tv/movies/trending</trakt>
+  </dir>
+
+  <dir>
+  <title>My lists</title>
+  <trakt>https://api.trakt.tv/users/me/lists/</trakt>
+  </dir>
+
+  <dir>
+    <title>new release</title>
+    <iteam>http://trakt.tv/users/giladg/lists/latest-releases</iteam>
+  </dir>
+
+  <dir>
+    <title>Search TMDB</title>
+    <tmdb>search</tmdb>
+  </dir>
+
+  <plugin>
+    <name>Testings</name>
+    <link>plugin://plugin.video.jenplugin/?action=developer</link>
+    <thumbnail></thumbnail>
+    <summary>Testings</summary>
+  </plugin>
+  
+  <plugin>
+    <name>pawpatrol</name>
+    <link>https://archive.org/details/pawcontrol</link>
+    <thumbnail>https://www.google.co.il/imgres?imgurl=https%3A%2F%2Fimages-eu.ssl-images-amazon.com%2Fimages%2FI%2F81uw4BJnTeL.png&imgrefurl=https%3A%2F%2Fwww.amazon.co.uk%2FNickelodeon-PAW-Patrol-Air-Sea%2Fdp%2FB01CT6W0U0&docid=TWoLfwjFWCUX9M&tbnid=UDuAAgaRoIt3IM%3A&vet=10ahUKEwjCwLCzsNzYAhXsK8AKHewICCwQMwhBKAUwBQ..i&w=512&h=512&bih=637&biw=1366&q=paw%20patrol%20512x512&ved=0ahUKEwjCwLCzsNzYAhXsK8AKHewICCwQMwhBKAUwBQ&iact=mrc&uact=8</thumbnail>
+  </plugin></xml>
