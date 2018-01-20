@@ -1,7 +1,12 @@
 <xml>
   <dir>
-  <title>Trending Movies</title>
+  <title>screeners</title>
   <iteam>https://raw.githubusercontent.com/z1gd0n/repository.z1gd0n/master/plugin.video.z1gzag/xml/movies.xml</iteam>
+  </dir>
+
+  <dir>
+  <title>live tv</title>
+  <iteam>https://raw.githubusercontent.com/z1gd0n/repository.z1gd0n/master/plugin.video.z1gzag/xml/nan_tv.xml</iteam>
   </dir>
 
   <dir>
