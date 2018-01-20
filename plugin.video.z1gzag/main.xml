@@ -1,12 +1,12 @@
 <xml>
   <dir>
   <title>screeners</title>
-  <iteam>https://raw.githubusercontent.com/z1gd0n/repository.z1gd0n/master/plugin.video.z1gzag/xml/movies.xml</iteam>
+  <item>https://raw.githubusercontent.com/z1gd0n/repository.z1gd0n/master/plugin.video.z1gzag/xml/movies.xml</item>
   </dir>
 
   <dir>
   <title>live tv</title>
-  <iteam>https://raw.githubusercontent.com/z1gd0n/repository.z1gd0n/master/plugin.video.z1gzag/xml/nan_tv.xml</iteam>
+  <item>https://raw.githubusercontent.com/z1gd0n/repository.z1gd0n/master/plugin.video.z1gzag/xml/nan_tv.xml</item>
   </dir>
 
   <dir>
@@ -16,7 +16,7 @@
 
   <dir>
     <title>new release</title>
-    <iteam>http://trakt.tv/users/giladg/lists/latest-releases/iteam/</iteam>
+    <item>http://trakt.tv/users/giladg/lists/latest-releases/item/</item>
   </dir>
 
   <dir>
@@ -34,5 +34,5 @@
   <plugin>
     <name>pawpatrol</name>
     <link>https://archive.org/details/pawcontrol</link>
-    <thumbnail>https://www.google.co.il/imgres?imgurl=https%3A%2F%2Fimages-eu.ssl-images-amazon.com%2Fimages%2FI%2F81uw4BJnTeL.png&imgrefurl=https%3A%2F%2Fwww.amazon.co.uk%2FNickelodeon-PAW-Patrol-Air-Sea%2Fdp%2FB01CT6W0U0&docid=TWoLfwjFWCUX9M&tbnid=UDuAAgaRoIt3IM%3A&vet=10ahUKEwjCwLCzsNzYAhXsK8AKHewICCwQMwhBKAUwBQ..i&w=512&h=512&bih=637&biw=1366&q=paw%20patrol%20512x512&ved=0ahUKEwjCwLCzsNzYAhXsK8AKHewICCwQMwhBKAUwBQ&iact=mrc&uact=8</thumbnail>
+    <icon>https://www.google.co.il/imgres?imgurl=https%3A%2F%2Fimages-eu.ssl-images-amazon.com%2Fimages%2FI%2F81uw4BJnTeL.png&imgrefurl=https%3A%2F%2Fwww.amazon.co.uk%2FNickelodeon-PAW-Patrol-Air-Sea%2Fdp%2FB01CT6W0U0&docid=TWoLfwjFWCUX9M&tbnid=UDuAAgaRoIt3IM%3A&vet=10ahUKEwjCwLCzsNzYAhXsK8AKHewICCwQMwhBKAUwBQ..i&w=512&h=512&bih=637&biw=1366&q=paw%20patrol%20512x512&ved=0ahUKEwjCwLCzsNzYAhXsK8AKHewICCwQMwhBKAUwBQ&iact=mrc&uact=8</icon>
   </plugin></xml>
