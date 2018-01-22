@@ -1,12 +1,12 @@
 <xml>
   <dir>
   <title>screeners</title>
-  <item>https://raw.githubusercontent.com/z1gd0n/repository.z1gd0n/master/plugin.video.z1gzag/xml/movies.xml</item>
+  <link>https://raw.githubusercontent.com/z1gd0n/repository.z1gd0n/master/plugin.video.z1gzag/xml/movies.xml</link>
   </dir>
 
   <dir>
   <title>live tv</title>
-  <item>https://raw.githubusercontent.com/z1gd0n/repository.z1gd0n/master/plugin.video.z1gzag/xml/nan_tv.xml</item>
+  <link>https://raw.githubusercontent.com/z1gd0n/repository.z1gd0n/master/plugin.video.z1gzag/xml/nan_tv.xml</link>
   </dir>
 
   <dir>
@@ -16,7 +16,7 @@
 
   <dir>
     <title>new release</title>
-    <item>http://trakt.tv/users/giladg/lists/latest-releases/item/</item>
+    <link>http://trakt.tv/users/giladg/lists/latest-releases/link/</link>
   </dir>
 
   <dir>
