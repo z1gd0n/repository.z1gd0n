@@ -15,13 +15,13 @@
   </dir>
 
   <dir>
-    <title>new releases</title>
-    <trakt>https://api.trakt.tv/users/me/lists/liked/items</tarkt>
+  <title>new releases</title>
+  <trakt>https://api.trakt.tv/users/me/lists/liked/</tarkt>
   </dir>
 
   <dir>
-    <title>Search TMDB</title>
-    <tmdb>search</tmdb>
+  <title>Search TMDB</title>
+  <tmdb>search</tmdb>
   </dir>
 
   <plugin>
@@ -32,9 +32,9 @@
   </plugin>
   
   <dir>
-    <name>pawpatrol</name>
-    <url>https://archive.org/download/pawcontrol</url>
-    <icon>https://images-eu.ssl-images-amazon.com/images/I/81uw4BJnTeL.png</icon>
+  <name>pawpatrol</name>
+  <url>https://archive.org/download/pawcontrol</url>
+  <icon>https://images-eu.ssl-images-amazon.com/images/I/81uw4BJnTeL.png</icon>
   </dir>
   
     <dir>
