@@ -31,8 +31,9 @@
     <summary>Testings</summary>
   </plugin>
   
-  <dir>
+  <item>
     <name>pawpatrol</name>
     <link>https://archive.org/download/pawcontrol</link>
     <icon>https://images-eu.ssl-images-amazon.com/images/I/81uw4BJnTeL.png</icon>
-  </dir></xml>
+  </item>
+</xml>
