@@ -16,7 +16,7 @@
 
   <dir>
     <title>new releases</title>
-    <trakt>https://api.trakt.tv/users/zeevgg/lists/liked/items</tarkt>
+    <trakt>https://api.trakt.tv/users/me/lists/liked/items</tarkt>
   </dir>
 
   <dir>
