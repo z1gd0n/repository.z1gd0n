@@ -16,7 +16,7 @@
 
   <dir>
     <title>new releases</title>
-    <trakt>http://api.trakt.tv/users/giladg/lists/latest-releases/</tarkt>
+    <trakt>http://api.trakt.tv/users/giladg/lists/latest-releases/items</tarkt>
   </dir>
 
   <dir>
