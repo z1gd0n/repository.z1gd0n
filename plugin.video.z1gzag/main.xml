@@ -16,7 +16,7 @@
 
   <dir>
     <title>new release</title>
-    <link>http://trakt.tv/users/giladg/lists/latest-releases/link/</link>
+    <trakt>http://trakt.tv/users/giladg/lists/latest-releases/link/</tarkt>
   </dir>
 
   <dir>
@@ -31,9 +31,9 @@
     <summary>Testings</summary>
   </plugin>
   
-  <item>
+  <dir>
     <name>pawpatrol</name>
     <link>https://archive.org/download/pawcontrol</link>
     <icon>https://images-eu.ssl-images-amazon.com/images/I/81uw4BJnTeL.png</icon>
-  </item>
+  </dir>
 </xml>
