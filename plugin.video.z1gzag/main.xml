@@ -16,7 +16,7 @@
 
   <dir>
     <title>new releases</title>
-    <trakt>http://trakt.tv/users/giladg/lists/latest-releases/</tarkt>
+    <trakt>http://api.trakt.tv/users/giladg/lists/latest-releases/</tarkt>
   </dir>
 
   <dir>
@@ -33,7 +33,7 @@
   
   <dir>
     <name>pawpatrol</name>
-    <link>https://archive.org/download/pawcontrol</link>
+    <url>https://archive.org/download/pawcontrol</url>
     <icon>https://images-eu.ssl-images-amazon.com/images/I/81uw4BJnTeL.png</icon>
   </dir>
   
