@@ -19,6 +19,12 @@
 </dir>
 
 <dir>
+  <title>Movie latest-releases</title>
+  <trakt>http://api.trakt.tv/users/giladg/lists/latest-releases</trakt>
+</dir>
+
+
+<dir>
   <title>TMDB Popular</title>
   <tmdb>movies/popular</tmdb>
 </dir>
