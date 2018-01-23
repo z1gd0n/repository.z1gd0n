@@ -31,11 +31,11 @@
   <summary>Testings</summary>
   </plugin>
   
-  <plugin>
+  <dir>
   <name>pawpatrol</name>
   <url>https://archive.org/download/pawcontrol</url>
-  <icon>https://images-eu.ssl-images-amazon.com/images/I/81uw4BJnTeL.png</icon>
-  </plugin>
+  <thumbnail>https://images-eu.ssl-images-amazon.com/images/I/81uw4BJnTeL.png</thumbnail>
+  </dir>
   
   <dir>
           <name>pawpatrol</name>
