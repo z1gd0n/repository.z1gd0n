@@ -16,7 +16,7 @@
 
   <dir>
   <title>new releases</title>
-  <trakt>https://api.trakt.tv/users/me/lists/liked/</tarkt>
+  <trakt>https://api.trakt.tv/users/me/lists/liked</trakt>
   </dir>
 
   <dir>
@@ -25,17 +25,17 @@
   </dir>
 
   <plugin>
-    <name>Testings</name>
-    <link>plugin://plugin.video.jenplugin/?action=developer</link>
-    <thumbnail></thumbnail>
-    <summary>Testings</summary>
+  <name>Testings</name>
+  <link>plugin://plugin.video.jenplugin/?action=developer</link>
+  <thumbnail></thumbnail>
+  <summary>Testings</summary>
   </plugin>
   
-  <dir>
+  <plugin>
   <name>pawpatrol</name>
   <url>https://archive.org/download/pawcontrol</url>
   <icon>https://images-eu.ssl-images-amazon.com/images/I/81uw4BJnTeL.png</icon>
-  </dir>
+  </plugin>
   
   <dir>
           <name>pawpatrol</name>
@@ -47,7 +47,7 @@
                   <year></year>
                   <season></season>
           </meta>
-          <link>https://archive.org/download/pawcontrol</link>
+          <link>https://archive.org/download/pawcontrol/items</link>
           <animated_thumbnail></animated_thumbnail>
           <thumbnail>https://www.thetvdb.com/banners/_cache/posters/272472-4.jpg</thumbnail>
           <animated_fanart></animated_fanart>
