@@ -108,8 +108,8 @@ from resources.lib.util.context import get_context_items
 from resources.lib.util.xml import JenItem, JenList, display_list
 from unidecode import unidecode
 
-CACHE_TIME = 3600  # change to wanted cache time in seconds
-CACHE_TMDB_TIME = 3600 * 24 * 360
+CACHE_TIME = 60000  # change to wanted cache time in seconds
+CACHE_TMDB_TIME = 60000 * 24 * 360
 SKIP_TMDB_INFO = False
 
 TRAKT_API_KEY = __builtin__.trakt_client_id

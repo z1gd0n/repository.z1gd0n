@@ -23,6 +23,22 @@
   <trakt>http://api.trakt.tv/users/giladg/lists/latest-releases</trakt>
 </dir>
 
+<dir>
+  <title>Search TV</title>
+  <imdburl>searchseries</imdburl>
+  <thumbnail></thumbnail>
+</dir>
+
+<dir>
+  <title>Search Movies</title>
+  <imdburl>searchmovies</imdburl>
+  <thumbnail></thumbnail>
+</dir>
+
+<dir>
+  <title>dubbed movies</title>
+  <imdburl>ls074062679</imdburl>
+</dir>
 
 <dir>
   <title>TMDB Popular</title>

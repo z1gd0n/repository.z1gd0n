@@ -462,7 +462,7 @@ def display_list(items, content_type):
             context_items=context_items,
             content_type="video",
             info_labels=item["info"],
-            set_property=item["properties"],
+            set_property=item.get("properties", {}),
             set_art={"poster": item["icon"]})
     xbmcplugin.setContent(int(sys.argv[1]), content_type)
 

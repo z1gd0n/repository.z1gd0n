@@ -1,6 +1,6 @@
 <xml>
   <dir>
-  <title>screeners</title>
+  <title>movies</title>
   <link>https://raw.githubusercontent.com/z1gd0n/repository.z1gd0n/master/plugin.video.z1gzag/xml/movies.xml</link>
   </dir>
 
@@ -47,7 +47,7 @@
                   <year></year>
                   <season></season>
           </meta>
-          <link>https://archive.org/download/pawcontrol/items</link>
+          <link>https://archive.org/download/pawcontrol</link>
           <animated_thumbnail></animated_thumbnail>
           <thumbnail>https://www.thetvdb.com/banners/_cache/posters/272472-4.jpg</thumbnail>
           <animated_fanart></animated_fanart>

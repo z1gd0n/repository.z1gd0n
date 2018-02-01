@@ -34,7 +34,7 @@ from resources.lib.plugin import Plugin
 from resources.lib.util.context import get_context_items
 from resources.lib.util.xml import JenItem, JenList, display_list
 
-CACHE_TIME = 3600  # change to wanted cache time in seconds
+CACHE_TIME = 86400  # change to wanted cache time in seconds
 
 addon_fanart = xbmcaddon.Addon().getAddonInfo('fanart')
 addon_icon = xbmcaddon.Addon().getAddonInfo('icon')
