@@ -25,7 +25,7 @@
 		<import addon="script.module.mittens" />
 		<import addon="script.mittens.artwork" version="1.0.0" />
 		<import addon="script.mittens.metadata" version="1.0.0" />
-		<import addon="script.module.resolverurl" version="" />
+		<import addon="script.module.resolverurl" version="5.0.05" />
 		<import addon="script.module.requests" />
 		<import addon="script.module.metahandler" version="3.0.2" />
 	</requires>
@@ -130,13 +130,14 @@
 	</extension>
 </addon>
 
-<addon id="repository.z1gd0n" name="z1gd0n repo" version="0.1.9" provider-name="z1gd0n">
+<addon id="repository.z1gd0n" name="z1gd0n repo" version="0.2.0" provider-name="z1gd0n">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.mittens" />
 		<import addon="script.mittens.artwork" version="1.0.0" />
 		<import addon="script.mittens.metadata" version="1.0.0" />
-		<import addon="script.module.resolverurl" version="" />
+		<import addon="script.module.resolverurl" version="5.0.05" />
+
 		<import addon="script.module.requests" />
 		<import addon="script.module.metahandler" version="3.0.2" />
 	</requires>
