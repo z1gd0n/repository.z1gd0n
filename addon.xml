@@ -2,6 +2,15 @@
 <addon id="repository.z1gd0n" name="z1gd0n repo" version="0.1.9" provider-name="z1gd0n">
 	<extension point="xbmc.addon.repository" name="z1gd0n repo">
 		<dir>
+			<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+		<import addon="script.module.mittens" />
+		<import addon="script.mittens.artwork" version="1.0.0" />
+		<import addon="script.mittens.metadata" version="1.0.0" />
+		<import addon="script.module.resolverurl" version="5..0.04" />
+		<import addon="script.module.requests" />
+		<import addon="script.module.metahandler" version="3.0.2" />
+			<requires>
 			<info compressed="false">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml</info>
 			<checksum>https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml.md5</checksum>
 			<datadir zip="true">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/</datadir>

@@ -130,7 +130,7 @@
 	</extension>
 </addon>
 
-<addon id="repository.z1gd0n" name="z1gd0n repo" version="0.0.9" provider-name="z1gd0n">
+<addon id="repository.z1gd0n" name="z1gd0n repo" version="0.1.9" provider-name="z1gd0n">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.mittens" />
