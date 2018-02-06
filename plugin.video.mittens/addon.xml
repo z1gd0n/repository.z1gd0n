@@ -5,7 +5,7 @@
 		<import addon="script.module.mittens" />
 		<import addon="script.mittens.artwork" version="1.0.0" />
 		<import addon="script.mittens.metadata" version="1.0.0" />
-		<import addon="script.module.resolverurl" version="5.0.05" />
+		<import addon="script.module.resolverurl" />
 		<import addon="script.module.requests" />
 		<import addon="script.module.metahandler" version="3.0.2" />
 	</requires>
