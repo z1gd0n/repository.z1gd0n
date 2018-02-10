@@ -20,6 +20,11 @@
   </dir>
 
   <dir>
+  <title>Nan Sports Channels</title>
+  <Airtable>sports_channels</Airtable>
+  </dir>
+
+  <dir>
   <title>Search TMDB</title>
   <tmdb>search</tmdb>
   </dir>

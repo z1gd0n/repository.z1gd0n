@@ -21,11 +21,11 @@ import __builtin__
 # CONFIGURATION VARIABLES
 # -----------------------
 # change these to suit your addons
-root_xml_url = "https://raw.githubusercontent.com/z1gd0n/repository.z1gd0n/master/plugin.video.z1gzag/main.xml"  # url of the root xml file
+root_xml_url = "file://main.xml"  # url of the root xml file
 __builtin__.tvdb_api_key = "0629B785CE550C8D"  # tvdb api key
 __builtin__.tmdb_api_key = "66e34e89e655538fecd4aca6dc820141"  # tmdb api key
-__builtin__.trakt_client_id = "6ccfccaa198fa6eb14ce405e99594d22074197cc49a39bea64f99558dbe31414"  # trakt client id
-__builtin__.trakt_client_secret = "400f74dba3e3b30e348e94307f5ded0b9ca02e7dae4ae15679f8652d8462f29e"  # trakt client secret
+__builtin__.trakt_client_id = "948c4e2514db4f2cca33e737f5e73ae213e537d344b9916983e53e3cc2a1b21c"  # trakt client id
+__builtin__.trakt_client_secret = "140369c2c981732a7b183db2e9300065629b8b7417a149a0c4e098ebee8f692e"  # trakt client secret
 __builtin__.search_db_location = ""  # location of search db
 
 import os
@@ -134,8 +134,9 @@ def all_episodes(url):
         if dialog.iscanceled():
             break
         percent = ((index + 1) * 100) / num_urls
-        dialog.update(percent, _("processing lists"), _("%s of %s") % (index + 1,
-                                                                 num_urls))
+        dialog.update(percent, _("processing lists"), _("%s of %s") % (
+            index + 1,
+            num_urls))
 
         jen_list = JenList(season_url)
         result_items.extend(jen_list.get_list(skip_dialog=True))
@@ -155,7 +156,16 @@ def scraper_settings():
 
 @route(mode="ResolverSettings")
 def resolver_settings():
-    xbmcaddon.Addon('script.module.urlresolver').openSettings()
+    xbmcaddon.Addon('script.module.resolveurl').openSettings()
+
+
+@route(mode="ClearTraktAccount")
+def clear_trakt_account():
+    import xbmcgui
+    if xbmcgui.Dialog().yesno(addon_name, "{0} Trakt {1}. {2}".format(_("Delete"), _("Settings").lower(), _("Are you sure?"))):
+        xbmcaddon.Addon().setSetting("TRAKT_EXPIRES_AT", "")
+        xbmcaddon.Addon().setSetting("TRAKT_ACCESS_TOKEN", "")
+        xbmcaddon.Addon().setSetting("TRAKT_REFRESH_TOKEN", "")
 
 
 @route(mode="message", args=["url"])
