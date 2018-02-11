@@ -37,6 +37,13 @@
     </dir>
 
 
+    Returns the m3u Lists-
+    <dir>
+    <title>M3U Lists</title>
+    <Airtable>m3u_lists</Airtable>
+    </dir>
+
+
     --------------------------------------------------------------
 
 """
@@ -95,6 +102,7 @@ class AIRTABLE(Plugin):
                 }
                 result_item['fanart_small'] = result_item["fanart"]
                 return result_item
+
             elif "sports_channels" in item.get("Airtable", ""):
                 result_item = {
                     'label': item["title"],
@@ -117,6 +125,27 @@ class AIRTABLE(Plugin):
                 result_item['fanart_small'] = result_item["fanart"]
                 return result_item                
                 
+            elif "m3u_lists" in item.get("Airtable", ""):
+                result_item = {
+                    'label': item["title"],
+                    'icon': item.get("thumbnail", addon_icon),
+                    'fanart': item.get("fanart", addon_fanart),
+                    'mode': "M3U",
+                    'url': "",
+                    'folder': True,
+                    'imdb': "0",
+                    'season': "0",
+                    'episode': "0",
+                    'info': {},
+                    'year': "0",
+                    'context': get_context_items(item),
+                    "summary": item.get("summary", None)
+                }
+                result_item["properties"] = {
+                    'fanart_image': result_item["fanart"]
+                }
+                result_item['fanart_small'] = result_item["fanart"]
+                return result_item     
 
 
 @route(mode='Tv_channels')
@@ -207,6 +236,32 @@ def new_releases():
                     "</item>" % (channel,channel,thumbnail,fanart,summary,link)
     jenlist = JenList(xml)
     display_list(jenlist.get_list(), jenlist.get_content_type())
+
+
+@route(mode='M3U')
+def M3u_Lists():
+    xml = ""
+    at = Airtable('appS7YaHGBb2CyIVd', 'm3u_lists', api_key='keyOHaxsTGzHU9EEh')
+    match = at.get_all(maxRecords=700, sort=['name'])
+    results = re.compile("fanart': u'(.+?)'.+?link': u'(.+?)'.+?name': u'(.+?)'.+?thumbnail': u'(.+?)'",re.DOTALL).findall(str(match))
+    for fanart,link,name,thumbnail in results:
+        print "<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<"+link
+        xml += "<plugin>"\
+               "<title>%s</title>"\
+               "<meta>"\
+               "<content>movie</content>"\
+               "<imdb></imdb>"\
+               "<title>%s</title>"\
+               "<year></year>"\
+               "<thumbnail>%s</thumbnail>"\
+               "<fanart>%s</fanart>"\
+               "<summary></summary>"\
+               "</meta>"\
+               "<link>plugin://plugin.video.live.streamspro/?mode=1&url=%s</link>"\
+               "</plugin>" % (name,name,thumbnail,fanart,link)
+                
+    jenlist = JenList(xml)
+    display_list(jenlist.get_list(), jenlist.get_content_type())    
 
 "-----------------------------------------------------------------"
 
