@@ -14,16 +14,16 @@
   <trakt>https://api.trakt.tv/users/me/lists/</trakt>
   </dir>
 
-  <dir>
-  <title>new releases</title>
-  <trakt>https://api.trakt.tv/users/me/lists/liked</trakt>
-  </dir>
-
-  <dir>
-  <title>Nan Sports Channels</title>
-  <Airtable>sports_channels</Airtable>
-  </dir>
-
+ <plugin>
+  <name>[COLOR white][B] Live[/B][/COLOR] [COLOR white][B]•[/B][/COLOR][COLOR red][B]Acestream Links[/B][/COLOR][COLOR FFff8397b0][I] (Acestream)[/I][/COLOR] [COLOR white][B]•[/B][/COLOR]</name>
+  <link>plugin://plugin.video.live.streamspro/?url=http://PATH/TO/YOUR/XML/Plexus-LSPro.xml&mode=1&name=tv</link>
+  <animated_thumbnail></animated_thumbnail>
+  <animated_fanart></animated_fanart>
+  <thumbnail></thumbnail>
+  <fanart></fanart>
+  <summary></summary>
+  </plugin>
+  
   <dir>
   <title>Search TMDB</title>
   <tmdb>search</tmdb>
@@ -36,26 +36,4 @@
   <summary>Testings</summary>
   </plugin>
   
-  <item>
-  <name>pawpatrol</name>
-  <link>https://pastebin.com/yfxWaHBr</link>
-  <thumbnail>https://images-eu.ssl-images-amazon.com/images/I/81uw4BJnTeL.png</thumbnail>
-  </item>
-  
-  <dir>
-          <name>pawpatrol</name>
-          <meta>
-                  <content>season</content>
-                  <imdb></imdb>
-                  <tvdb>272472</tvdb>
-                  <tvshowtitle>paw patrol</tvshowtitle>
-                  <year></year>
-                  <season></season>
-          </meta>
-          <link>https://archive.org/download/pawcontrol</link>
-          <animated_thumbnail></animated_thumbnail>
-          <thumbnail>https://www.thetvdb.com/banners/_cache/posters/272472-4.jpg</thumbnail>
-          <animated_fanart></animated_fanart>
-          <fanart></fanart>
- </dir>
 </xml>

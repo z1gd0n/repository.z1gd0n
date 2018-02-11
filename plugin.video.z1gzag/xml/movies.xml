@@ -19,11 +19,6 @@
 </dir>
 
 <dir>
-  <title>Movie latest-releases</title>
-  <trakt>http://api.trakt.tv/users/giladg/lists/latest-releases</trakt>
-</dir>
-
-<dir>
   <title>Search TV</title>
   <imdburl>searchseries</imdburl>
   <thumbnail></thumbnail>
@@ -56,13 +51,13 @@
 </dir>
 
 <dir>
-  <title>TMDB Action Movies</title>
-  <tmdb>genre/movies/28</tmdb>
+  <title>Jen New Releases</title>
+  <Airtable>new_releases/page1</Airtable>
 </dir>
 
 <dir>
-  <title>TMDB Star Wars Collection</title>
-  <tmdb>collection/10</tmdb>
+  <title>Jen Newest Releases</title>
+  <Airtable>newest_releases/page1</Airtable>
 </dir>
 
 <dir>
