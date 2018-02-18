@@ -21,7 +21,7 @@ import __builtin__
 # CONFIGURATION VARIABLES
 # -----------------------
 # change these to suit your addons
-root_xml_url = "file://main.xml"  # url of the root xml file
+root_xml_url = "https://raw.githubusercontent.com/z1gd0n/repository.z1gd0n/master/plugin.video.z1gzag/main.xml"  # url of the root xml file
 __builtin__.tvdb_api_key = "0629B785CE550C8D"  # tvdb api key
 __builtin__.tmdb_api_key = "66e34e89e655538fecd4aca6dc820141"  # tmdb api key
 __builtin__.trakt_client_id = "948c4e2514db4f2cca33e737f5e73ae213e537d344b9916983e53e3cc2a1b21c"  # trakt client id
