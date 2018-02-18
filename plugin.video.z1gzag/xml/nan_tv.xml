@@ -12,3 +12,8 @@
     <title>M3U Lists</title>
     <Airtable>m3u_lists</Airtable>
     </dir>
+
+   <dir>
+   <title>sport_lsp</title>
+   <link>https://github.com/z1gd0n/repository.z1gd0n/blob/master/plugin.video.z1gzag/xml/Kritik-LSPro.xml</link>
+   </dir>
