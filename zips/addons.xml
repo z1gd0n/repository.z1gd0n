@@ -139,35 +139,6 @@
 	</extension>
 </addon>
 
-    <addon id="repository.z1gd0n" name="z1gd0n repo" version="2.1.0" provider-name="z1gd0n">
-        <requires>
-            <import addon="xbmc.python" version="2.19.0" />
-            <import addon="script.module.mittens" />
-            <import addon="script.mittens.artwork" version="1.0.0" />
-            <import addon="script.mittens.metadata" version="1.0.0" />
-            <import addon="script.module.resolverurl" />
-            <import addon="script.module.requests" />
-            <import addon="script.module.metahandler" version="3.0.2" />
-        </requires>
-        <extension point="xbmc.addon.repository" name="z1gd0n repo">
-            <dir>
-                <info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
-                <checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
-                <datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
-            </dir>
-            <dir>
-                <info compressed="false">https://raw.githubusercontent.com/z1gd0n/repository.z1gd0n/master/zips/addons.xml</info>
-                <checksum>https://raw.githubusercontent.com/z1gd0n/repository.z1gd0n/master/zips/addons.xml.md5</checksum>
-                <datadir zip="true">https://raw.githubusercontent.com/z1gd0n/repository.z1gd0n/master/zips/</datadir>
-            </dir>
-        </extension>
-        <extension point="xbmc.addon.metadata">
-            <summary lang="en">z1gd0n repo</summary>
-            <description lang="en">just having fun</description>
-            <genre></genre>
-        </extension>
-    </addon>
-
 <addon id="script.mittens.artwork" version="1.0.3" name="Mittens Artwork" provider-name="Mittens">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
