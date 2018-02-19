@@ -92,20 +92,20 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.z1gzag" name="z1gzag" version="2.0.2" provider-name="z1gd0n">
+<addon id="plugin.video.z1gzag" name="z1gzag" version="2.1.0" provider-name="z1gd0n">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
-        <import addon="script.module.nanscrapers" version="0.5.5" />
+        <import addon="script.module.universalscrapers" version="0.5.5" />
         <import addon="script.module.python.koding.aio" version="0.9.6.6" />
         <import addon="script.module.beautifulsoup" version="3.2.1" />
         <import addon="script.module.requests" version="2.9.1" />
         <import addon="script.module.addon.common" version="2.0.0" />
         <import addon="script.module.xmltodict" version="0.9.0" />
         <!--<import addon="script.module.web-pdb" version="1.0"/>-->
-        <import addon="script.module.urlresolver" version="1.2.0" />
+        <import addon="script.module.resolveurl" />
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
+        <provides>audio video</provides>
     </extension>
     <extension point="xbmc.service" library="service.py" start="[login|startup]" />
     <extension point="xbmc.addon.metadata">
@@ -116,8 +116,8 @@
       <disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
       <disclaimer lang="he">מחבר ההרחבה זה אינו מארח את התוכן שיתכן ויימצא ואין לו זיקה לאף אחד מספקי התוכן. הרחבה רק מחפשת תוכן שקיים באתרי אינטרנט. השימוש בהרחבה הוא על אחריותך בלבד!</disclaimer>
       <platform>all</platform>
-        <website>www.noobsandnerds.com</website>
-        <video_guide>xtOqLY5PJDY</video_guide>
+        <website></website>
+        <video_guide></video_guide>
     </extension>
 </addon>
 
@@ -139,7 +139,7 @@
 	</extension>
 </addon>
 
-<addon id="repository.z1gd0n" name="z1gd0n repo" version="2.0.2" provider-name="z1gd0n">
+<addon id="repository.z1gd0n" name="z1gd0n repo" version="2.1.0" provider-name="z1gd0n">
 	<extension point="xbmc.addon.repository" name="z1gd0n repo">
 		<dir>
 	<requires>
@@ -150,10 +150,10 @@
 		<import addon="script.module.resolverurl" />
 		<import addon="script.module.requests" />
 		<import addon="script.module.metahandler" version="3.0.2" />
-	</requires>
-			<info compressed="false">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/</datadir>
+	<requires>
+			<info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
 		</dir>
 		<info compressed="false">https://raw.githubusercontent.com/z1gd0n/repository.z1gd0n/master/zips/addons.xml</info>
 		<checksum>https://raw.githubusercontent.com/z1gd0n/repository.z1gd0n/master/zips/addons.xml.md5</checksum>
